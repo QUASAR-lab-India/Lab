@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QUASAR Lab India</title>
+    <meta name="description" content="QUASAR Lab India - Research in Quantum Systems, AI, Robotics and more." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <img src="/assets/img/logo.svg" alt="QUASAR Lab" class="logo" />
+          <span>QUASAR Lab India</span>
+        </div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#people">People</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#news">News</a>
+          <a href="#opportunities">Opportunities</a>
+          <a href="#contact" class="btn btn-primary">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Quantum, AI and Systems Research</h1>
+            <p>
+              Advancing science and engineering across quantum computing, artificial intelligence,
+              autonomous systems, and robotics through open, collaborative research.
+            </p>
+            <div class="cta">
+              <a class="btn btn-primary" href="#opportunities">Join us</a>
+              <a class="btn btn-ghost" href="#research">Explore research</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            QUASAR Lab India is a research collective focused on foundational and applied work in
+            quantum information science, machine learning, systems, and robotics. We collaborate
+            with academia and industry to build open tools, publish impactful work, and mentor the
+            next generation of researchers and engineers.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt" id="research">
+        <div class="container">
+          <h2>Research Areas</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Quantum Computing</h3>
+              <p>Algorithms, error mitigation, simulation, and applications.</p>
+            </article>
+            <article class="card">
+              <h3>Artificial Intelligence</h3>
+              <p>Foundation models, agents, reasoning, safety, and alignment.</p>
+            </article>
+            <article class="card">
+              <h3>Systems & Tooling</h3>
+              <p>Distributed systems, compilers, performance engineering, and infra.</p>
+            </article>
+            <article class="card">
+              <h3>Robotics & Autonomy</h3>
+              <p>Perception, control, multi-agent coordination, and HRI.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="people">
+        <div class="container">
+          <h2>People</h2>
+          <div class="people-grid" id="people-grid">
+            <!-- Populate via JS or manually -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="publications">
+        <div class="container">
+          <h2>Publications</h2>
+          <ul class="pub-list" id="pub-list">
+            <!-- Add BibTeX or JSON in assets and load via JS if desired -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="cards" id="project-cards">
+            <!-- Cards can be hydrated from /assets/data/projects.json -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="news">
+        <div class="container">
+          <h2>News</h2>
+          <ul class="news-list" id="news-list">
+            <!-- Announcements or updates -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="opportunities">
+        <div class="container">
+          <h2>Opportunities</h2>
+          <p>
+            We welcome collaborators, students, and contributors. See open calls below or reach out
+            directly.
+          </p>
+          <ul class="bullets">
+            <li>Undergraduate and graduate research</li>
+            <li>Open-source contributors</li>
+            <li>Industry collaborations</li>
+          </ul>
+          <a class="btn btn-primary" href="#contact">Express interest</a>
+        </div>
+      </section>
+
+      <section class="section alt" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:contact@quasar-lab.in">contact@quasar-lab.in</a></p>
+          <form class="contact-form" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <div class="grid">
+              <label>
+                <span>Name</span>
+                <input name="name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required />
+              </label>
+            </div>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="left">
+          <span>© <span id="year"></span> QUASAR Lab India</span>
+          <span class="sep">•</span>
+          <a href="/LICENSE">CC0-1.0</a>
+        </div>
+        <div class="right">
+          <a href="https://github.com/QUASAR-lab-India/Lab" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
