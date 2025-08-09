@@ -1,0 +1,47 @@
+{
+  "name": "quantum-smart-systems-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive website for quantum computing and smart systems research laboratories",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "build": "echo 'No build process required for static site'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "quantum-computing",
+    "artificial-intelligence",
+    "smart-systems",
+    "research-lab",
+    "university",
+    "academic",
+    "responsive-website",
+    "modern-web",
+    "css-animations",
+    "javascript"
+  ],
+          "author": "QUASAR-lab-India Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/quantum-smart-systems-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/quantum-smart-systems-website/issues"
+  },
+  "homepage": "https://your-username.github.io/quantum-smart-systems-website",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
